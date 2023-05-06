@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url('fundo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#table1{
+    margin: 0 auto;
+    width: 100%; 
+    border: inset #373737;
+    background-color: #c0b283;
+}
+#title{
+    margin-left: 700px;
+    width: 50%;
+    font-family:monospace ;
+    font-size: 50px;
+    text-align: center;
+    color:#373737;
+    border: inset  #373737;
+}
+.nav ul li{
+    list-style: none;
+    display: inline;
+    border:inset #f4f4f4;
+    margin-right: 10px;
+}
+a:hover{
+    color:darkgoldenrod
+}
+a{
+    color: #373737;
+}
+.sinopse{
+    color:#373737;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: justify ;
+    margin: auto auto;
+}
+.box{
+    border: inset #c0b283 ;
+    margin: auto auto;
+}
+.titlebox{
+font-size: 40px;
+display: inline;
+font-family: monospace;
+color:#373737; ;
+}
+
+#table3{
+    border:inset #373737;
+    width:100% ;
+    background-color: #c0b283;
+    display: flex;
+
+}
+.font{
+    font-family: monospace;
+    font-size: 20px;
+    color:#373737 ;
+}
