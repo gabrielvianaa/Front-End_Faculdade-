@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#43372B ;
+    min-height: 100%;
+}
+.top{
+    border: inset #997D70;
+    background-color: #43372B;
+    filter: drop-shadow(0 0 10px white);
+    border-radius: 10px;
+}
+.title h1{
+    text-align: center;
+    font-family: iceberg, sans-serifs;
+    font-size: 55px;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+}
+.navbar ul li a{
+    color: black;
+    font-family: iceberg, sans-serifs;
+
+}
+.navbar ul li a:hover{
+    color: white
+}
+.center h1{ 
+    margin-left: 45%;
+    font-family: iceberg, sans-serif;
+    font-size: 70px;
+    color:white
+}
+.conten p{
+    text-align: center;
+    margin: 35px;
+    border: solid #997D70 ;
+    background-color: #997D70;
+    border-radius: 30px ;
+    font-size:25px;
+}
+.fundo1 img{
+    opacity: 0.5;
+    position:absolute;
+}
+.fundo1 p{
+    position: absolute;
+    color: white;
+    font-family: iceberg, sans-serif;
+    font-size: 150px;
+    padding-left:310px;
+    text-align: center;
+}
+.fundo2 img{
+    position: absolute;
+    opacity: 0.5;
+}
+.fundo2 p{
+    position: absolute;
+    color: white;
+    font-family: iceberg, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 15%;
+    margin-right: 15% ;
+}
+.tabcontent td{
+    /* border: inset ; */
+    border-radius: 20px;
+    background-color: #997D70;
+    padding: 0;
+    margin: 0;
+}
+.tabcontent h3{
+    font-family: iceberg, sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-left: 170px;
+}
+.tabcontent img{
+    border-radius: 20px;
+}
+.tabcontent p{
+    font-family: iceberg, sans-serif;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align:center;
+}
+.login{
+    position: absolute;
+    width: 578px;
+    height: 500px;
+    left: 450px;
+    top: 207px;
+    background: #997D70;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.login h3{
+    margin-left: 43%;
+    font-family: iceberg, sans-serif;
+    color: #000;
+    font-size: 40px;
+}
+.login label{
+    margin-left:26%;
+    font-family: iceberg, sans-serif;
+    color: #000;
+    font-size: 25px;
+}
+.login p{
+    text-align: center;
+    font-family: iceberg, sans-serif;
+    color: #000;
+    font-size: 30px;
+}
+#mail{
+    border-radius: 20px;
+    width: 250px;
+    margin-left: 5px;
+    height: 25px;
+}
+#pass{
+    border-radius: 20px;
+    width: 250px;
+    height: 25px;
+}
+#botao{
+    margin-left:45%;
+    border-radius: 10px;
+    width: 80px;
+    height: 25px;
+    font-family: iceberg, sans-serif;
+    font-size: 20px;
+    height: 50px;
+}
+.cadastro h1{
+    text-align: center;
+    font-family: iceberg, sans-serifs;
+    font-size: 40px;
+}
+.cadastro{
+    position: absolute;
+    width: 578px;
+    height: 500px;
+    left: 450px;
+    top: 207px;
+    background: #997D70;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.cadastro label{
+    font-family: iceberg, sans-serif;
+    font-size: 26px;
+    margin-left: 125px;
+    margin-bottom: 120px;
+}
+#name{
+    width: 250px;
+    border-radius: 20px;
+    height: 25px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+#phone{
+    width: 250px;
+    border-radius: 20px;
+    height: 25px;
+    margin-top: 15px;
+}
+#email{
+    width: 250px;
+    border-radius: 20px;
+    height: 25px;
+    margin-left:30px;
+    margin-top: 15px;
+
+}
+#password{
+    width: 250px;
+    border-radius: 20px;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
